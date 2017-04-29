@@ -16,12 +16,15 @@ def draw_art():
     for i in range(1,37):
         draw_square(brad)
         brad.right(10)
-    #create turtle angie draws a circle
-    #angie = turtle.Turtle()
-    #angie.shape("arrow")
-    #angie.color("blue")
-    #angie.right(90)
-    #angie.forward(200)
+    
+    angie = turtle.Turtle()
+    angie.shape("arrow")
+    angie.color("blue")
+    angie.penup()
+    angie.right(90)
+    angie.forward(100)
+    angie.pendown()
+    angie.forward(100)
     window.exitonclick()
 
 draw_art()
